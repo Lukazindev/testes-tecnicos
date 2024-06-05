@@ -1,0 +1,57 @@
+body {
+    padding-bottom: 500px;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.ativo {
+    background-color: lightgreen;
+}
+
+.selecionado {
+    background-color: #ccc;
+}
+
+.modal {
+    display: none;
+    position: center;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 50;
+    height: 50%;
+    background-color:yellow;
+}
+
+.modal-content {
+    background-color: #FEFEFE;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    cursor: pointer;
+    font-weight: bold;
+    float: right;
+}
+
+.accordion-header {
+    cursor: pointer;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border: 1px solid #accc;
+}
+
+.accordion-content {
+    display: none;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+}
